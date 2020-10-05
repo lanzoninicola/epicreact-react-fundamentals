@@ -28,7 +28,8 @@ if (error) {
 }
 
 var command =
-  'npx "https://gist.github.com/kentcdodds/bb452ffe53a5caa3600197e1d8005733" -q'
+  'npx "https://gist.github.com/kentcdodds/bb452ffe53a5caa3600197e1d8005733"'
+
 console.log(
   color('subtitle', '      Running the following command: ' + command),
 )
